@@ -176,7 +176,7 @@ class Bot(commands.Bot):
             track('name')
 
         elif cmd == '%help':
-            await message.channel.send("Alle Commands und Quellcode: Hierwürdeeinlinksein")
+            await message.channel.send("Alle Commands und Quellcode: https://github.com/1206Elchi/FluppyGame/blob/main/ReadMe.md")
             track('help')
 
         global_cooldown = now + 3
